@@ -24,9 +24,9 @@ $ annotation_tools/ybat-master/ybat.html
 - Use the VOC dataset format for labeling.
 - The VOC format saves data as XML files.
 
-### 3-1. Load the images:
+1. Load the images:
 - Image save path: ```images/{class}```
-### 3-2. Load the class information file:
+2. Load the class information file:
 - Class file path: ```./class.txt```
-### 3-3. Select the corresponding class in Classes and draw a box at the appropriate location on the right-hand side of the image screen.
-### 3-4. Use Save VOC (bottom-right) to save the file containing the class information.
+3. Select the corresponding class in Classes and draw a box at the appropriate location on the right-hand side of the image screen.
+4. Use Save VOC (bottom-right) to save the file containing the class information.
