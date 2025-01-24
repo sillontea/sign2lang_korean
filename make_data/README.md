@@ -1,4 +1,7 @@
 # Data Construction
+To create labels, "Ybat" was used. 
+Please see details on [`ybat.html`](https://github.com/drainingsun/ybat):
+
 ## 1. Install Libraries
 ```bash
 # opencv with conda
@@ -25,8 +28,8 @@ $ annotation_tools/ybat-master/ybat.html
 - The VOC format saves data as XML files.
 
 1. Load the images:
-- Image save path: ```images/{class}```
+ - Image save path: ```images/{class}```
 2. Load the class information file:
-- Class file path: ```./class.txt```
+ - Class file path: ```./class.txt```
 3. Select the corresponding class in Classes and draw a box at the appropriate location on the right-hand side of the image screen.
 4. Use Save VOC (bottom-right) to save the file containing the class information.
